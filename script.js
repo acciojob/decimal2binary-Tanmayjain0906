@@ -6,7 +6,7 @@ function decimalToBinary(num) {
         let rem = num%2;
         ans = ans + (rem * i);
         i = i*10;
-        num = parseInt(x/2);
+        num = parseInt(num/2);
     }
 	return ans;
 }
