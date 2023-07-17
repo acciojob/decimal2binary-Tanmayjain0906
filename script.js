@@ -8,7 +8,7 @@ function decimalToBinary(num) {
         i = i*10;
         num = parseInt(num/2);
     }
-	return ans;
+	return ans.toString();
 }
 
 window.decimalToBinary = decimalToBinary;
